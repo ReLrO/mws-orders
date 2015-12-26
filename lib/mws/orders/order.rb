@@ -8,6 +8,11 @@ module MWS
       attribute(:amazon_order_id) do
         text_at_xpath("AmazonOrderId")
       end
+      
+      
+      attribute(:is_prime) do
+        text_at_xpath("IsPrime")
+      end
 
       attribute(:seller_order_id) do
         text_at_xpath("SellerOrderId")
