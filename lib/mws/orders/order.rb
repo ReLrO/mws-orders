@@ -113,6 +113,16 @@ module MWS
       attribute(:latest_shipped_at) do
         time_at_xpath("LatestShipDate")
       end
+      
+      attribute(:is_premium_order) do
+        text_at_xpath("IsPremiumOrder")
+      end
+      
+      attribute(:is_business_order) do
+        text_at_xpath("IsBusinessOrder")
+      end
+      
+      
     end
   end
 end
