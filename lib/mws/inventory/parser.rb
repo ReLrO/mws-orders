@@ -15,13 +15,13 @@ module MWS
 
       def parse
         node = find_result_node
-        puts"hi"
+        
         case node.name
         when SERVICE_STATUS
           ServiceStatus.new(node)
         when LISTINVENTORYSUPPLY
-          puts"hi1"
-          FulfillmentInventory.new(node).first
+
+          InventorySupplyList.new(node).first
         else
           raise NotImplementedError
         end
