@@ -3,6 +3,8 @@ gemspec
 
 gem "rake"
 
+gem "peddler", :git => 'git@github.com:ReLrO/mws-orders.git'
+
 group :development, :test do
   gem "minitest", require: false
   gem "guard", require: false
