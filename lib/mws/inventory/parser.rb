@@ -21,7 +21,7 @@ module MWS
           ServiceStatus.new(node)
         when LISTINVENTORYSUPPLY
 
-          InventorySupplyList.new(node).first
+          InventorySupplyList.new(node)
         else
           raise NotImplementedError
         end
