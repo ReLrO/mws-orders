@@ -3,7 +3,7 @@ require "mws/inventory/entity"
 
 module MWS
   module FulfillmentInventory
-    class Member < Entity
+    class member < Entity
 
 
       attribute(:condition) do
