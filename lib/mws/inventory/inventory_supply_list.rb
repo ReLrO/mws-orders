@@ -8,7 +8,8 @@ module MWS
       include Tokenable
 
       def each(&blk)
-        xpath("inventory/inventory").map { |node| yield Order.new(node) }
+      	puts "yo"
+        xpath("inventory/inventory").map { |node| yield Member.new(node) }
       end
     end
   end
