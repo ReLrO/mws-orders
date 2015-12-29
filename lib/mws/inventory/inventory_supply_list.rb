@@ -9,7 +9,7 @@ module MWS
 
       def each(&blk)
       	puts "yo"
-        xpath("inventory/inventory").map { |node| puts node }
+        xpath("InventorySupplyList/member").map { |node| puts node }
       end
     end
   end
