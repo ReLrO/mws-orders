@@ -20,7 +20,7 @@ module MWS
       end
 
       attribute(:fn_sku) do
-        time_at_xpath("FNSKU")
+        text_at_xpath("FNSKU")
       end
 
       attribute(:in_stock_supply_quantity) do
