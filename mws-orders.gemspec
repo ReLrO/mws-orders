@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "money", "~> 6.0"
   gem.add_dependency "nokogiri", "~> 1.5"
-  gem.add_dependency "peddler", :git => 'git@github.com:ReLrO/mws-orders.git'
+  gem.add_dependency "peddler"
   gem.add_dependency "structure", "~> 1.0.0"
   gem.required_ruby_version = ">= 1.9"
 end
