@@ -1,5 +1,5 @@
 require "mws/inventory/collection"
-require "mws/inventory/order"
+require "mws/inventory/inventory"
 require "mws/inventory/tokenable"
 
 module MWS
