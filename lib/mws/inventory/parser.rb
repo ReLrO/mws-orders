@@ -3,7 +3,7 @@ require "mws/inventory/inventory_supply_list"
 require "mws/inventory/service_status"
 
 module MWS
-  module InventorySupplyList
+  module FulfillmentInventory
     class Parser
       SERVICE_STATUS = /GetServiceStatus/
       LISTINVENTORYSUPPLY  = /ListInventorySupply/
@@ -21,7 +21,7 @@ module MWS
           ServiceStatus.new(node)
         when LISTINVENTORYSUPPLY
           puts"hi1"
-          InventorySupplyList.new(node).first
+          FulfillmentInventory.new(node).first
         else
           raise NotImplementedError
         end

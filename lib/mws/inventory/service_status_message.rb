@@ -1,7 +1,7 @@
 require "mws/inventory/entity"
 
 module MWS
-  module InventorySupplyList
+  module FulfillmentInventory
     class ServiceStatusMessage < Entity
       attribute(:locale) do
         text_at_xpath("Locale")

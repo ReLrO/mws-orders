@@ -2,7 +2,7 @@ require "mws/inventory/entity"
 
 
 module MWS
-  module InventorySupplyList
+  module FulfillmentInventory
     class Member < Entity
 
 

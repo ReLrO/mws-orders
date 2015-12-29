@@ -5,7 +5,7 @@ require "structure"
 require "mws/inventory/document"
 
 module MWS
-  module InventorySupplyList
+  module FulfillmentInventory
     class Entity < Document
       include Structure
 

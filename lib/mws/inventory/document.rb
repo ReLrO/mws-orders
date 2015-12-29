@@ -1,5 +1,5 @@
 module MWS
-  module InventorySupplyList
+  module FulfillmentInventory
     class Document
       attr_reader :node
 

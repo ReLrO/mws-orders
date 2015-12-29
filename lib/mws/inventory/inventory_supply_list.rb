@@ -3,7 +3,7 @@ require "mws/inventory/inventory"
 require "mws/inventory/tokenable"
 
 module MWS
-  module InventorySupplyList
+  module FulfillmentInventory
     class InventorySupplyList < Collection
       include Tokenable
 

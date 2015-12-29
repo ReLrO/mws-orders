@@ -1,7 +1,7 @@
 require "mws/inventory/document"
 
 module MWS
-  module InventorySupplyList
+  module FulfillmentInventory
     class Collection < Document
       include Enumerable
 

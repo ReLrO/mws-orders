@@ -2,7 +2,7 @@ require "mws/inventory/entity"
 require "mws/inventory/service_status_message"
 
 module MWS
-  module InventorySupplyList
+  module FulfillmentInventory
     class ServiceStatus < Entity
       attribute(:status) do
         text_at_xpath("Status")

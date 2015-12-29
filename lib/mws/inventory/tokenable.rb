@@ -1,5 +1,5 @@
 module MWS
-  module InventorySupplyList
+  module FulfillmentInventory
     module Tokenable
       def next_token
         node = xpath('NextToken').first
