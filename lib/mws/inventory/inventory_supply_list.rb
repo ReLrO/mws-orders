@@ -8,7 +8,6 @@ module MWS
       include Tokenable
 
       def each(&blk)
-      	puts "yo"
         xpath("InventorySupplyList/member").map { |node| yield Member.new(node) }
       end
     end
